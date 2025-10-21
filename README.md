@@ -5,6 +5,12 @@
 
 ---
 
+## 🧪 Motivation
+
+This tool was created out of necessity — existing Python-based solutions for parsing PGN files were too slow for practical use. `TournamentExtractor` is a blazing-fast C++ alternative designed to handle millions of games with minimal overhead and maximum efficiency. Future plan is to upgrade to a fast tournament filtering solution to drastically lower the dataset preparation time.
+
+---
+
 ## ⚙️ Features
 - Parses PGN files line by line, searching for `[Event "Tournament Name"]` headers.
 - Deduplicates tournament names using `std::unordered_set`.
